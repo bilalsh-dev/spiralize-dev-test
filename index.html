@@ -380,10 +380,18 @@
         />
       </div>
       <div class="video-block__video">
-        <video class="video-block__video-player" width="320" height="240">
+        <video
+          class="video-block__video-player"
+          id="infoVideo"
+          width="320"
+          height="240"
+        >
           <source src="assets/videos/video.mp4" type="video/mp4" />
         </video>
-        <button class="video-block__play-button">
+        <button
+          class="video-block__play-button"
+          onclick="toggleVideoPlayback()"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -429,5 +437,6 @@
     <script src="js/carousel.js"></script>
     <script src="js/countryListInitializer.js"></script>
     <script src="js/formSubmission.js"></script>
+    <script src="js/videoControls.js"></script>
   </body>
 </html>
