@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home | Get an Intervention</title>
+    <!--FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--stylesheet-->
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero__container container">
+        <div class="hero__navbar">
+          <div class="hero__logo">
+            <a href="#">
+              <img src="assets/images/logo.svg" />
+            </a>
+          </div>
+          <div class="hero__nav-toggle">
+            <img src="assets/images/icons/menu.svg" />
+          </div>
+          <ul>
+            <li class="hero__nav-item hero__nav-item--active">
+              <a href="#">HOME</a>
+            </li>
+            <li class="hero__nav-item"><a href="#">ABOUT</a></li>
+            <li class="hero__nav-item"><a href="#">CONTACT</a></li>
+            <li class="hero__nav-item">
+              <a href="#">CALL NOW FOR A CONSULT <span>XXX.XXX.XXXX</span></a>
+            </li>
+          </ul>
+        </div>
+        <div class="hero__content">
+          <div class="hero__txt">
+            <h1><span>GET AN</span>INTERVENTION</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation.
+            </p>
+          </div>
+          <div class="hero__form-container">
+            <h2>Contact Us</h2>
+            <div class="hero__inp-row">
+              <div class="hero__inp-box">
+                <input class="hero__inp" id="f-name" type="text" />
+                <label for="f-name"><span>First Name</span></label>
+                <div class="hero__empty-tooltip">
+                  <p>This field can't be empty. Please fill it in.</p>
+                </div>
+              </div>
+              <div class="hero__inp-box">
+                <input class="hero__inp" id="l-name" type="text" />
+                <label for="l-name"><span>Last Name</span></label>
+                <div class="hero__empty-tooltip">
+                  <p>This field can't be empty. Please fill it in.</p>
+                </div>
+              </div>
+            </div>
+            <div class="hero__inp-row">
+              <div class="hero__inp-box">
+                <input class="hero__inp" id="b-name" type="text" />
+                <label for="b-name"><span>Business Email</span></label>
+                <div class="hero__empty-tooltip">
+                  <p>This field can't be empty. Please fill it in.</p>
+                </div>
+              </div>
+              <div class="hero__inp-box">
+                <input class="hero__inp" id="c-name" type="text" />
+                <label for="c-name"><span>Company</span></label>
+                <div class="hero__empty-tooltip">
+                  <p>This field can't be empty. Please fill it in.</p>
+                </div>
+              </div>
+            </div>
+            <div class="hero__drop-row">
+              <select id="country" class="hero__inp hero__sel focus">
+                <option value=""></option>
+              </select>
+              <label for="country"><span>Country</span></label>
+              <div class="hero__empty-tooltip">
+                <p>This field can't be empty. Please fill it in.</p>
+              </div>
+            </div>
+            <div class="hero__btn-row">
+              <a onclick="validate()">
+                <span class="hero__a">
+                  <img src="assets/images/icons/submit.svg" />
+                  <span>Submit</span>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About -->
+    <section class="about-section">
+      <div class="about-section__container container">
+        <div class="about-section__image-gallery">
+          <img src="assets/images/about-1.jpg" />
+          <img src="assets/images/about-2.jpg" />
+          <img src="assets/images/about-3.jpg" />
+        </div>
+        <div class="about-section__text-content">
+          <h3><span>WE</span> UNDERSTAND</h3>
+          <p>
+            Older adults want to play active and meaningful roles in their
+            lives, including as part of a social network, a neighborhood, and a
+            community. Service providers and policymakers must consider that a
+            lack of sense of purpose can become problematic as people age.
+            Engaging them in leisure activities and volunteer work is important.
+            Older adults want to stay active and contribute to society in a
+            reciprocal manner (meaning that they want to exchange their services
+            and skills with others for the mutual benefit of the neighborhood or
+            community). Qualitative and quantitative studies published from 2005
+            to 2016 examining the social needs of older adults were eligible for
+            inclusion.
+            <br /><br />
+            To stimulate social contacts, neighborhood initiatives can be
+            developed. Social meeting places, such as pubs and churches can help
+            to foster the development of close and peripheral relationships.
+            <a href="#"
+              ><span
+                >92% Success Rate
+                <img src="assets/images/icons/arrow.svg" /></span
+            ></a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials -->
+    <section class="testimonials-carousel">
+      <div class="testimonials-carousel__container container">
+        <div
+          class="testimonials-carousel__arrow testimonials-carousel__arrow--left"
+        >
+          <svg
+            width="25"
+            height="40"
+            viewBox="0 0 25 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M24.24 35.76L8.47999 20L24.24 4.24L20 -3.70673e-07L-7.78829e-06 20L20 40L24.24 35.76Z"
+              fill="#EAEAEA"
+            />
+          </svg>
+        </div>
+        <div class="testimonials-carousel__carousel">
+          <div class="testimonials-carousel__item">
+            <div class="testimonials-carousel__image">
+              <img src="assets/images/abbie-harvey.jpg" />
+            </div>
+            <div class="testimonials-carousel__text">
+              <p class="testimonials-carousel__name">Abbie Harvey</p>
+              <p class="testimonials-carousel__message">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation. Lorem ipsum
+                dolor sit amet, consectetur!
+              </p>
+              <img
+                class="testimonials-carousel__quote"
+                src="assets/images/block-qoute.svg"
+              />
+            </div>
+          </div>
+          <div class="testimonials-carousel__item">
+            <div class="testimonials-carousel__image">
+              <img src="assets/images/abbie-harvey.jpg" />
+            </div>
+            <div class="testimonials-carousel__text">
+              <p class="testimonials-carousel__name">Abbie Harvey</p>
+              <p class="testimonials-carousel__message">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation. Lorem ipsum
+                dolor sit amet, consectetur!
+              </p>
+              <img
+                class="testimonials-carousel__quote"
+                src="assets/images/block-qoute.svg"
+              />
+            </div>
+          </div>
+          <div class="testimonials-carousel__item">
+            <div class="testimonials-carousel__image">
+              <img src="assets/images/abbie-harvey.jpg" />
+            </div>
+            <div class="testimonials-carousel__text">
+              <p class="testimonials-carousel__name">Abbie Harvey</p>
+              <p class="testimonials-carousel__message">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation. Lorem ipsum
+                dolor sit amet, consectetur!
+              </p>
+              <img
+                class="testimonials-carousel__quote"
+                src="assets/images/block-qoute.svg"
+              />
+            </div>
+          </div>
+          <div class="dots-container"></div>
+        </div>
+        <div
+          class="testimonials-carousel__arrow testimonials-carousel__arrow--right"
+        >
+          <svg
+            width="25"
+            height="40"
+            viewBox="0 0 25 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0.76001 4.24L16.52 20L0.76001 35.76L5.00001 40L25 20L5.00001 0L0.76001 4.24Z"
+              fill="#EAEAEA"
+            />
+          </svg>
+        </div>
+      </div>
+    </section>
+    <!-- ORGANIZE SECTION -->
+    <section class="organize-section">
+      <div class="organize-section__container container">
+        <h5 class="organize-section__title">
+          <b>
+            <span class="organize-section__title-text">WE</span> CAN ORGANIZE
+            EVERYTHING
+          </b>
+        </h5>
+        <div class="organize-section__content">
+          <p class="organize-section__content-title">
+            <span>Lorem ipsum</span> dolor sit amet, consectetur adipiscing
+            elit, sed do eiusmod tempor incididunt ut labore.
+          </p>
+          <p class="organize-section__content-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+            nostrud exercitation.
+            <br /><br />
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+            nostrud exercitation.
+          </p>
+        </div>
+        <div class="organize-section__buttons">
+          <a class="organize-section__button" href="#">
+            Needs Assesment
+            <span class="organize-section__button-icon"></span>
+            <div class="organize-section__button-tooltip">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore.
+              </p>
+            </div>
+          </a>
+          <a class="organize-section__button" href="#"
+            >Treatment Planning &<br />Placement<span
+              class="organize-section__button-icon"
+            ></span>
+            <div class="organize-section__button-tooltip">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore.
+              </p>
+            </div></a
+          >
+          <a class="organize-section__button" href="#"
+            >Transportation & Logistics<span
+              class="organize-section__button-icon"
+            ></span>
+            <div class="organize-section__button-tooltip">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore.
+              </p>
+            </div></a
+          >
+          <a class="organize-section__button" href="#"
+            >Insuarance Advocacy<span
+              class="organize-section__button-icon"
+            ></span>
+            <div class="organize-section__button-tooltip">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore.
+              </p>
+            </div></a
+          >
+          <a class="organize-section__button" href="#"
+            >Employment Advocacy<span
+              class="organize-section__button-icon"
+            ></span>
+            <div class="organize-section__button-tooltip">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore.
+              </p>
+            </div></a
+          >
+          <a class="organize-section__button" href="#"
+            >Aftercare Planning<span
+              class="organize-section__button-icon"
+            ></span>
+            <div class="organize-section__button-tooltip">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore.
+              </p>
+            </div></a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- VIDEO BLOCK -->
+    <section class="video-block">
+      <div class="video-block__content">
+        <div class="video-block__info">
+          <h5><span>WATCH</span> THE VIDEO</h5>
+          <ul class="video-block__features">
+            <li class="video-block__feature">
+              <img src="assets/images/icons/tick.svg" alt="Tick icon" />
+              <p>
+                <span>Needs Assessment</span>
+                The Advocacy Evaluation Toolkit contains the instruments used to
+                collect data for evaluating the Consumer Voices for Coverage
+                program.
+              </p>
+            </li>
+            <li class="video-block__feature">
+              <img src="assets/images/icons/tick.svg" alt="Tick icon" />
+              <p>
+                <span>Insurance Advocacy</span>
+                We are committed to advocating for appropriate coverage and
+                payment policies.
+              </p>
+            </li>
+            <li class="video-block__feature">
+              <img src="assets/images/icons/tick.svg" alt="Tick icon" />
+              <p>
+                <span>Treatment Planning & Placement</span>
+                Patients can better understand medical procedures, discharge
+                instructions, etc.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <img
+          class="video-block__background"
+          src="assets/images/curve-green.png"
+          alt="Video background image"
+        />
+        <img
+          class="video-block__background video-block__background--overlay"
+          src="assets/images/curve-overlay.png"
+          alt="Video background overlay image"
+        />
+      </div>
+      <div class="video-block__video">
+        <video class="video-block__video-player" width="320" height="240">
+          <source src="assets/videos/video.mp4" type="video/mp4" />
+        </video>
+        <button class="video-block__play-button">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-play-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"
+            />
+          </svg>
+        </button>
+        <img
+          class="video-block__logo"
+          src="assets/images/logo.svg"
+          alt="Logo"
+        />
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer__container container">
+        <p class="footer__copyright">
+          &copy; 2021 Get an Intervention Inc. All rights reserved.
+        </p>
+        <nav class="footer__nav">
+          <ul class="footer__nav-list">
+            <li class="footer__nav-item">
+              <a href="#" class="footer__nav-link">Privacy Policy</a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="#" class="footer__nav-link">Terms of use</a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="#" class="footer__nav-link">Site Map</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="js/carousel.js"></script>
+    <script src="js/countryListInitializer.js"></script>
+    <script src="js/formSubmission.js"></script>
+  </body>
+</html>
