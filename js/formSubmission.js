@@ -35,14 +35,6 @@ function validate() {
     }
   });
 
-  const countrySelect = document.querySelector(".hero__drop-row select");
-  if (countrySelect.value === "") {
-    countrySelect.parentElement.classList.add("hero__empty");
-  } else {
-    countrySelect.parentElement.classList.remove("hero__empty");
-    num++;
-  }
-
   if (num === 5) {
     document.location = "thanks.html";
   }
