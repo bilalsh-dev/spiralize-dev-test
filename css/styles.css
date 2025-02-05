@@ -64,7 +64,7 @@
 
 
 .hero{
-    background-image: url(/assets/images/bg-cover.png);
+    background-image: url(../assets/images/bg-cover.png);
     background-size: cover;
     position: relative;
     padding-top: 20.5px;
@@ -76,7 +76,7 @@
     bottom: -4px;
     height: 140px;
     width: 100%;
-    background-image: url(/assets/images/bg-bottom-dark.svg);
+    background-image: url(../assets/images/bg-bottom-light.svg);
     background-repeat: no-repeat;
     z-index: 2;
     background-position: bottom;
@@ -84,7 +84,7 @@
   }
   .hero::after{
     content: '';
-    background-image: url(/assets/images/bg-bottom-light.svg);
+    background-image: url(../assets/images/bg-bottom-light.svg);
   }
 
   .hero__container::before{
