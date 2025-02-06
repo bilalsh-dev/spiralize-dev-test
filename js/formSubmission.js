@@ -49,9 +49,11 @@ function validate() {
     ".hero__form-container .hero__inp"
   );
   inputFields.forEach((input) => {
-    validateField(input);
+    if (validateField(input)) {
+      num++;
+    }
   });
-
+  console.log("num", num);
   if (num === 5) {
     document.location = "thanks.html";
   }
